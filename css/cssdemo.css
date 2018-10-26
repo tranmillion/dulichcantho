@@ -1,0 +1,85 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+#wrapper{
+	/* width: 1200px; */
+	/* background-color: #3A6F40; */
+	/* margin: auto; */
+}
+.carousel-inner {
+	height: 680px;;
+}
+#top{
+	/* width: 1200px; */
+	height: 350px;
+	/* background-color: green; */
+	text-align: center;
+	position: relative;
+
+}
+.panel, .flip {
+    width: 210px;
+    padding: 10px;
+    text-align: center;
+    background-color: #C0F6A0;
+    border: solid 5px #000000;
+
+    
+    }
+
+.panel {
+    display: block;
+}
+.panel a{
+	display: block;
+	background-color: #008603;
+	color: white;
+	text-align: center;
+	padding: 2px;
+
+}
+#menu1,#menu2,#menu3,#menu4,#menu5{
+	float: right;
+}
+#dlct {
+	position: absolute;
+	font-size: 300%;
+	font-style: oblique;
+	color: white;
+	top: 5% ;left: 60%;
+}
+#inner{
+	/* width: 1200px; */
+	/* height:30px; */
+	background-color: #518A19;
+	margin-bottom:30px;
+	display: block;
+}
+#inner2{
+	/* width: 600px; */
+	/* height:800px; */
+	background-color: #597121;
+	float: left;
+	margin-bottom: 20px;
+	text-align: left;
+}
+#inner3{
+	/* width: 500px; */
+	/* height:800px; */
+	background-color: #A2BF95;
+	float: left;
+	margin-left: 100px;
+}
+#footer{
+	/* width: 1200px; */
+	/* height: 200px; */
+	background-color: #037335;
+	margin-top: 3px;
+	text-align: center;
+	clear: both;
+}
+.notice{
+	color: #FFFFFF
+
+}
